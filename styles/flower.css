@@ -140,3 +140,39 @@ body {
   width: 318px;
   height: 420px;
 }
+/* instagram */
+.instagram {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  text-align: center;
+}
+.insta-image-container {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+/* .insta-image {
+  gap: 24px;
+} */
+
+/* latest Deals */
+.latest-deal-container {
+  display: flex;
+  justify-content: center;
+}
+.latest-deals {
+  padding-top: 122px;
+  text-align: center;
+  width: 1440px;
+  height: 449px;
+  border-radius: 8px;
+  background-image: url('../images/latestdeal.png');
+  background-repeat: no-repeat;
+}
+input[type='email'] {
+  padding: 22px 510px 22px 22px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 8px;
+}
