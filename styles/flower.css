@@ -29,6 +29,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   padding-top: 24px;
+  padding-bottom: 52px;
 }
 
 /* banner style  */
@@ -128,9 +129,12 @@ body {
   border-radius: 8px;
   background-color: rgba(229, 84, 115, 0.05);
   align-items: center;
-  justify-content: space-between;
-  padding-left: ;
-  padding-right: ;
+  justify-content: space-around;
+  padding: 100px 400px;
+  margin-top: 130px;
+}
+.hot-deals {
+  text-align: center;
 }
 .hot-deal-image {
   width: 318px;
