@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Common shared style  */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.btn {
+  background-color: #e55473;
+  padding: 20px 43px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+}
+
+.section-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.section-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 24px;
+}
+
+/* banner style  */
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 240px;
+  padding-right: 240px;
+  background-color: rgba(229, 84, 115, 0.1);
+}
+.banner-title {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+}
+.banner-description {
+  padding: 32px 0px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.banner-image {
+  width: 635px;
+  height: 800px;
+  margin-top: 50px;
+}
+/* featured flower section  */
+.feature-container {
+  padding: 178px 240px 128px 240px;
+}
+.tree-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 50px;
+}
+.tree1,
+.tree2,
+.tree3 {
+  width: 465px;
+  height: 540px;
+  border-radius: 300px 300px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.tree1 {
+  background-color: rgba(167, 33, 98, 0.15);
+}
+.tree2 {
+  background-color: rgba(5, 151, 160, 0.15);
+}
+.tree3 {
+  background-color: rgba(71, 125, 17, 0.15);
+}
+.tree-image1,
+.tree-image3 {
+  width: 310px;
+  height: 430px;
+}
+.tree-image2 {
+  width: 370px;
+  height: 370px;
+}
+.tree-title {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  margin-top: 32px;
+}
+/* Delivery and Support */
+
+.delivery-support {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 1440px;
+  height: 320px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin: auto;
+}
+.ds-title {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* Hot Deals  */
+.hot-deals-container {
+  display: flex;
+  border-radius: 8px;
+  background-color: rgba(229, 84, 115, 0.05);
+  align-items: center;
+  justify-content: space-between;
+  padding-left: ;
+  padding-right: ;
+}
+.hot-deal-image {
+  width: 318px;
+  height: 420px;
+}
