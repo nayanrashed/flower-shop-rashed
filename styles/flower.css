@@ -50,12 +50,12 @@ body {
 }
 .banner-title {
   color: #272727;
-  width: 710px;
+  /* width: 710px; */
   font-size: 80px;
   font-weight: 800;
 }
 .banner-description {
-  width: 635px;
+  /* width: 635px; */
   padding: 32px 0px;
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
