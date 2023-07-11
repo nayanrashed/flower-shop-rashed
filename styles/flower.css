@@ -42,7 +42,7 @@ body {
 /* banner style  */
 .banner-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding-left: 240px;
   padding-right: 240px;
@@ -50,10 +50,12 @@ body {
 }
 .banner-title {
   color: #272727;
+  width: 710px;
   font-size: 80px;
   font-weight: 800;
 }
 .banner-description {
+  width: 635px;
   padding: 32px 0px;
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
@@ -64,6 +66,7 @@ body {
   width: 635px;
   height: 800px;
   margin-top: 50px;
+  margin-left: 100px;
 }
 /* featured flower section  */
 .feature-container {
@@ -102,6 +105,7 @@ body {
 .tree-image2 {
   width: 370px;
   height: 370px;
+  margin-bottom: 50px;
 }
 .tree-title {
   color: #272727;
@@ -146,7 +150,9 @@ body {
 .hot-deal-image {
   width: 318px;
   height: 420px;
+  /* padding: 100px 430px 100px 210px; */
 }
+
 /* instagram */
 .instagram {
   padding-top: 130px;
@@ -158,9 +164,6 @@ body {
   gap: 24px;
   justify-content: center;
 }
-/* .insta-image {
-  gap: 24px;
-} */
 
 /* latest Deals */
 .latest-deal-container {
