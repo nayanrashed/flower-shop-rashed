@@ -38,7 +38,34 @@ body {
 .text-highlight {
   color: #e55473;
 }
-
+/* Menu Bar */
+.logo-image {
+  width: 70px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  align-items: center;
+  background-color: #e55473;
+}
+.menu-bar {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+.menu-btn {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(27, 168, 17, 0.842);
+  padding: 5px 20px;
+  border-radius: 8px;
+  font-size: 22px;
+}
+.menu-btn:hover {
+  background-color: white;
+  color: #e55473;
+}
 /* banner style  */
 .banner-container {
   display: flex;
